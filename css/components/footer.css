@@ -1,0 +1,40 @@
+footer {
+    background-color: var(--light-tertiary-color);
+}
+
+footer .footer__content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    justify-content: center;
+}
+
+form {
+    background: var(--primary-color);
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+input, textarea, button {
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 5px;
+    color: #777;
+    font-size: 18px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+}
+
+button {
+    color: var(--primary-color);
+    cursor: pointer;
+    font-weight: bold;
+}
